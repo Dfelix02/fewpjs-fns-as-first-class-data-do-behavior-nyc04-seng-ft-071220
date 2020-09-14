@@ -16,7 +16,7 @@ function greet(timeString) {
   if (hour<1200){
     return console.log("Good Morning")
   }
-  else if(hour>1700){
+  if(hour>1700){
     return console.log("Good Evening")
   }
   else {
