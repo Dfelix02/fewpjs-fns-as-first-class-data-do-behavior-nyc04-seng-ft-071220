@@ -9,7 +9,7 @@ function handleClick(e) {
 
 /* End Given Code, don't edit above here...*/
 
-function greet(hour_time) {
+function greet(timeString) {
   let arr_of_hour = hour_time.split(":")
   let hour =  arr_of_hour.join("")
  
