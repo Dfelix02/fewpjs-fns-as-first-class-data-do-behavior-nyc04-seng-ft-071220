@@ -10,7 +10,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greet(timeString) {
-  let arr_of_hour = hour_time.split(":")
+  let arr_of_hour = timeString.split(":")
   let hour =  arr_of_hour.join("")
  
   if (hour<1200){
