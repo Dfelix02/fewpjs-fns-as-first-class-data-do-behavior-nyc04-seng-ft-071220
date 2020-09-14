@@ -24,6 +24,7 @@ function greet(hour_time) {
   else {
     return console.log("Good Afternoon")
   }
+  return "hello"
 }
 
 function displayMessage() {
