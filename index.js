@@ -13,7 +13,7 @@ function greet(hour_time) {
   let arr_of_hour = hour_time.split("")
   arr_of_hour.splice(2,1)
   let arr_of_num = arr_of_hour.map(Number)
-  num = arr_of_num.join("")
+  let num = arr_of_num.join("")
  
   if (num<1200){
     return console.log("Good Morning")
