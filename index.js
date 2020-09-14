@@ -24,6 +24,7 @@ function greet(timeString) {
   }
 }
 
-function displayMessage() {
-
+function displayMessage(the_string) {
+  let element = getElementById("greeting");
+  
 }
