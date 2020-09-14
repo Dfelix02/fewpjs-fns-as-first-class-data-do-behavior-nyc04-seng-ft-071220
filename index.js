@@ -11,7 +11,7 @@ function handleClick(e) {
 
 function greet(hour_time) {
   let arr_of_hour = hour_time.split(":")
-  hour =  arr_of_hour.join("")
+  let hour =  arr_of_hour.join("")
  
   if (hour<1200){
     return console.log("Good Morning")
